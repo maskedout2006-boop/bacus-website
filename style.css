@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    width: 100%;
+    height: 110px;
+    background-color: whitesmoke;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 35px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+}
+
+.logo-container h1 {
+    color: black;
+    font-size: 22px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: normal;
+}
+
+
+/* BODY */
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+/* NAVIGATION */
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 11px;
+}
+
+.navigation a:hover {
+    color: red;
+}
+
+
+section {
+    padding: 60px 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+section h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 22px;
+    color: red;
+    margin-bottom: 30px;
+}
+
+
+section h3 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 13px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+
+section p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+
+.services-list {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-top: 30px;
+}
+
+
+.service-item {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    text-align: left;
+}
+
+
+.service-item img {
+    width: 250px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+.service-description {
+    flex: 1;
+}
+
+.service-description h3 {
+    margin-bottom: 15px;
+}
+
+.service-description ul {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    padding-left: 20px;
+}
+
+
+.pricing-table {
+    width: 80%;
+    margin: 20px auto 40px;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+
+.pricing-table th,
+.pricing-table td {
+    border: 1px solid red;
+    padding: 15px;
+    text-align: left;
+}
+
+
+.pricing-table th {
+    background-color: #202020;
+    color: red;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 11px;
+}
+
+
+.pricing-table td {
+    background-color: #111111;
+    color: white;
+}
