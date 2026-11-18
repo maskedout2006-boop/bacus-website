@@ -15,6 +15,7 @@
     align-items: center;
 
     padding: 0 35px;
+    position: fixed;
 }
 
 .logo-container {
@@ -77,6 +78,7 @@ section h2 {
     font-size: 22px;
     color: red;
     margin-bottom: 30px;
+    padding-top: 10%;
 }
 
 
