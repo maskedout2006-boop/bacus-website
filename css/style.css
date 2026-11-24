@@ -15,7 +15,9 @@
     align-items: center;
 
     padding: 0 35px;
+}
 
+.header {
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -81,6 +83,7 @@ section h2 {
     font-size: 22px;
     color: red;
     margin-bottom: 30px;
+    padding-top: 1%;
 }
 
 
@@ -248,8 +251,6 @@ section p {
     background-color: #0d5db8;
 }
 
-```css
-/* ABOUT US */
 .about-section {
     padding: 60px 50px;
 }
